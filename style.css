@@ -1,0 +1,198 @@
+#navbar {
+    position: relative;
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#navbar .container {
+    position: relative;
+    z-index: 0;
+}
+
+#navbar .container .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+#navbar .container .container-fluid .icons a:hover {
+    position: relative;
+    font-size: 20px;
+    color: #000000
+}
+
+#hero {
+    position: relative;
+    z-index: 2;
+}
+
+#hero .container {
+    margin-top: 85px;
+    text-align: center;
+}
+
+#hero .container .adventures {
+    font-family: 'Lora', serif;
+    font-size: smaller;
+    margin-bottom: 60px;
+}
+
+#hero .container .johnstoryteller {
+    position: absolute;
+    width: 380px;
+    top: 40px;
+    margin-left: 470px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 49px;
+    color: red;
+    background-color: white;
+    text-decoration: none;
+}
+
+#hero .container .option {
+    font-size: 15px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    word-spacing: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#hero .container .option a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#main-header {
+    position: relative;
+    z-index: 2px;
+}
+
+#main-header .container {
+    text-align: center;
+}
+
+#main-header .container .month {
+    padding: 10px;
+}
+
+#main-header .container .month a {
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+#main-header .container .vertical {
+    border-left: 2px solid rgb(124, 106, 106);
+    height: 14px;
+    margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 5px;
+}
+
+#main-header .container .travel {
+    padding: 10px;
+}
+
+#main-header .container .travel a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#main-header .container .heading {
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 45px;
+}
+
+#main-header .container .heading a {
+    color: black;
+    text-decoration: none;
+}
+
+#main-header .container .paragraph {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
+
+#main-header .container .paragraph .horizontal-line {
+    width: 60px;
+    margin-left: 613px;
+}
+
+#main-header .container .paragraph .readmore a {
+    text-decoration: none;
+    font-size: madium;
+    color: red;
+}
+
+#blog {
+    position: relative;
+    z-index: 2;
+}
+
+#blog .container {
+    padding: 10px;
+    text-align: start;
+}
+
+#blog .container .month {
+    padding: 10px;
+}
+
+#blog .container .month a {
+    margin-top: 10px;
+    color: red;
+    text-decoration: none;
+}
+
+#blog .container .vertical {
+    border-left: 2px solid rgb(124, 106, 106);
+    height: 14px;
+    margin-top: 16px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 5px;
+}
+
+#blog .container .travel {
+    padding: 10px;
+}
+
+#blog .container .travel a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#blog .container .heading {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 25px;
+}
+
+#blog .container .heading a {
+    color: black;
+    text-decoration: none;
+}
+
+#blog .container .paragraph {
+    border-radius: 0 0 5px 5px;
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+}
+
+#blog .container .paragraph .horizontal-line {
+    width: 40px;
+}
+
+#blog .container .paragraph .readmore a {
+    text-decoration: none;
+    font-size: madium;
+    color: red;
+}
